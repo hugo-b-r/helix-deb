@@ -7,9 +7,11 @@ This repository hosts actions and scripts to build a debian package out of
 
 ## Set-up
 
-If you want to use the script, you should set up a [rust development environment]
-(http://rustup.rs). You should alos install cargo bundle (the latest "development"
-version because the last update isn't working with cargo workspaces).
+If you want to use the script, you should set up a [rust development
+environment](http://rustup.rs). You should also install cargo bundle
+(the latest "development" version because the last update isn't working
+with cargo workspaces).
+
 So use:
 ```bash
 cargo install --git https://github.com/burtonageo/cargo-bundle
