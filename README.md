@@ -29,8 +29,15 @@ cargo install --git https://github.com/burtonageo/cargo-bundle
 
 ## Running 
 
+for a debug package : 
 ```bash
 ./helix-deb.sh
 ```
+
+For a release package, append `- -release`.
+
 ## Sidenotes
+
+Might be instable as cargo-bundle is stated as "very very alpha".
+ 
 Feel free to contribute and always respect yourself, others and humanity.
