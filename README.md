@@ -12,6 +12,16 @@ environment](http://rustup.rs). You should also install cargo bundle
 (the latest "development" version because the last update isn't working
 with cargo workspaces).
 
+### Requirements
+```bash
+git gcc
+```
+
+For debian:
+```bash
+apt-get install git gcc
+```
+
 So use:
 ```bash
 cargo install --git https://github.com/burtonageo/cargo-bundle
