@@ -3,7 +3,16 @@ git clone https://github.com/helix-editor/helix
 
 cd helix/helix-term
 
-cat ../../bundle.toml | echo >> Cargo.toml
+cat ../../bundle.toml >> Cargo.toml
 
 cargo bundle "$@"
+
+# Copy what we just built
+mkdir ../../output
+cp -r ../target/debug/bundle/* ../../output/
+
+# remove the repository after use
+cd ../../ 
+rm -r -f helix
+
 
