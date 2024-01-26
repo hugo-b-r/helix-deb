@@ -1,0 +1,10 @@
+[package.metadata.bundle]
+name = "helix"
+identifier = "com.helix-editor.helix-term"
+icon = ["logo.svg", "contrib/icon.png"]
+resources = ["contrib", "runtime"]
+category = "public.app-category.utilities"
+short_description = "A post-modern modal text editor."
+linux_use_term = true
+
+
