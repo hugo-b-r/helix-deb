@@ -9,7 +9,8 @@ cargo bundle "$@"
 
 # Copy what we just built
 mkdir ../../output
-cp -r ../target/debug/bundle/* ../../output/
+cp -r ../target/debug/bundle/* ../../output/debug
+cp -r ../target/release/bundle/* ../../output/release
 
 # remove the repository after use
 cd ../../ 
